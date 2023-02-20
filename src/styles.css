@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(8, 189, 189); /* Color de fondo */
+    display: flex;
+    place-content: center center;
+}
+header{
+    text-align: center;
+    color: whitesmoke;
+}
+.container{
+    margin: 2vh;
+    width: 50%; /* Tamaño del contenedor */
+}
+
+.container path{
+fill: burlywood; /* Color  del mapa */
+stroke: black; /* Color de las lineas del mapa */
+stroke-width: 2px; /* Grosor de la linea */
+}
+
+.container :hover{
+    fill: darkblue; /* Este color se mostrarar al pasar por encima de una de la provincias */
+}
